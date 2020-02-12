@@ -25,4 +25,8 @@ public class HomeController {
     public String page5() {
         return "page5";
     }
+    @RequestMapping("/timeline")
+    public String page6() {
+        return "timeline";
+    }
 }

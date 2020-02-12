@@ -25,7 +25,52 @@ img {
     width: 300px;
 }
 
+/*.box1 {*/
+/*    border-right: 2px dotted purple;*/
+/*    border-bottom: 2px dotted purple;*/
+/*}*/
 
+/*.box2 {*/
+/*    border-left: 2px dotted purple;*/
+/*    border-bottom: 2px dotted purple;*/
+/*}*/
 
+/*.box3 {*/
+/*    border-right: 2px dotted purple;*/
+/*    border-bottom: 2px dotted purple;*/
+/*}*/
 
+#test {
+    color: red;
+}
 
+section {
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.timeline1 {
+    color: red;
+    border-left: 2px dotted brown;
+    border-bottom: 2px dotted brown;
+    width: 50%;
+}
+
+.timeline2 {
+    color: yellow;
+    background-color: black;
+    border-left: 2px dotted brown;
+    border-bottom: 2px dotted brown;
+    border-right: 2px dotted brown;
+    width: 50%;
+}
+
+.timeline3 {
+    color: green;
+    border-right: 2px dotted brown;
+    border-bottom: 2px dotted brown;
+    width: 50%;
+}
