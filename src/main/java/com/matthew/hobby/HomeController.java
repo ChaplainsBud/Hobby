@@ -9,19 +9,19 @@ public class HomeController {
     public String home() {
         return "index";
     }
-    @RequestMapping("/")
+    @RequestMapping("/hamsun")
     public String page2() {
         return "page2";
     }
-    @RequestMapping("/")
+    @RequestMapping("/undset")
     public String page3() {
         return "page3";
     }
-    @RequestMapping("/")
+    @RequestMapping("/knausgaard")
     public String page4() {
         return "page4";
     }
-    @RequestMapping("/")
+    @RequestMapping("/ibsen")
     public String page5() {
         return "page5";
     }
